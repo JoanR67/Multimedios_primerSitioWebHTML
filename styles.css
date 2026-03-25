@@ -1,0 +1,82 @@
+
+html{
+    background-color:aliceblue;
+}
+
+h1{
+    background-color: burlywood;
+}
+
+iframe{
+    margin-left: 25%;
+    border: 15px double darkcyan
+}
+
+img{
+    margin-left: 25%;
+    border: 20px dashed darkorchid
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 600px;
+    background-color: beige;
+    font-family:'Gill Sans';
+}
+tbody{
+    padding: 30px;
+    border-right: 1px solid black;
+}
+
+thead{
+    background-color: brown;
+    color: white; 
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+h2{
+    background-color: beige;
+    color: deepskyblue;
+    
+}
+
+.parrafoFondo{
+    background-color: beige;
+
+}
+
+.parrafoTexto{
+    color: cornflowerblue;
+    text-align: justify;
+}
+
+/*Enlace sin visitar*/
+a:link{
+    color:blue
+}
+
+/*Cursor sobre el link*/
+a:hover{
+    color:green
+}
+
+/*Enlace visitado*/
+a:visited{
+    color:red
+}
+
+a:active{
+    color:darkgoldenrod
+}
+
+input{
+    border: 3px inset black;
+    
+}
+
+button{
+    border: 4px outset lightgreen;
+}
